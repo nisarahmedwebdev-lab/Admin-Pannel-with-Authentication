@@ -148,7 +148,7 @@ if ($isLoggedIn) {
             <!-- Sidebar -->
             <aside class="sidebar" id="sidebar">
                 <div class="sidebar-brand">
-                    <i class="fas fa-shield-alt"></i>
+                <i class="fa-brands fa-google"></i>
                     <span>Gexton Academy</span>
                 </div>
                 

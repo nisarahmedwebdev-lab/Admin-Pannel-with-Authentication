@@ -237,8 +237,8 @@ button[type="submit"]:active {
 /* ========== SIDEBAR ========== */
 .sidebar {
     width: 280px;
-    background: #081a63;
-    color: #ffffff;
+    background:  #f9f8f7e7;
+    color:  #f88a04e7;
     display: flex;
     flex-direction: column;
     transition: width 0.3s ease;
@@ -285,7 +285,7 @@ button[type="submit"]:active {
 .sidebar-brand span {
     font-size: 20px;
     font-weight: 700;
-    color: #ffffff;
+    color:  #f88a04e7;
 }
 
 .sidebar-user {
@@ -293,7 +293,7 @@ button[type="submit"]:active {
     align-items: center;
     gap: 15px;
     padding: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgb(rgb(255, 123, 0), rgba(250, 157, 7, 0.726), rgba(255, 179, 0, 0.95));
 }
 
 .sidebar-avatar {
@@ -301,18 +301,18 @@ button[type="submit"]:active {
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #4caf50;
+    border: 3px solid  #f88a04e7;
 }
 
 .sidebar-user-info h4 {
     font-size: 15px;
-    color: #ffffff;
+    color:  #f88a04e7;
     margin-bottom: 2px;
 }
 
 .sidebar-user-info span {
     font-size: 12px;
-    color: #8bb88b;
+    color:  #f88a04e7;
     text-transform: uppercase;
 }
 
@@ -326,7 +326,7 @@ button[type="submit"]:active {
     align-items: center;
     gap: 12px;
     padding: 12px 15px;
-    color: rgba(255, 255, 255, 0.7);
+    color:  #f88a04e7;
     text-decoration: none;
     border-radius: 8px;
     transition: all 0.3s;
@@ -339,18 +339,18 @@ button[type="submit"]:active {
 }
 
 .nav-link:hover {
-    background: rgba(76, 175, 80, 0.2);
+    background: rgb(7, 7, 7);
     color: #ffffff;
 }
 
 .nav-link.active {
-    background: #1a7a1a;
-    color: #ffffff;
+    background: #050404;
+    color: #f1eded;
 }
 
 .nav-link .badge {
     margin-left: auto;
-    background: #e74c3c;
+    background: #f06e04;
     padding: 2px 10px;
     border-radius: 20px;
     font-size: 12px;
@@ -366,8 +366,8 @@ button[type="submit"]:active {
 .logout-btn {
     width: 100%;
     padding: 12px;
-    background: #e74c3c;
-    color: #ffffff;
+    background: #f88a04e7;
+    color: #f7f4f4;
     border: none;
     border-radius: 8px;
     font-size: 14px;
@@ -419,21 +419,21 @@ button[type="submit"]:active {
     border: none;
     font-size: 20px;
     cursor: pointer;
-    color: #2d5a2d;
+    color:  #f88a04e7;
     padding: 5px;
 }
 
 .toggle-sidebar:hover {
-    color: #1a7a1a;
+    color:  #f88a04e7;
 }
 
 .header-left h2 {
     font-size: 20px;
-    color: #1a5c1a;
+    color:  #f88a04e7;
 }
 
 .header-time {
-    color: #5a8a5a;
+    color:  #f88a04e7;
     font-size: 14px;
 }
 
